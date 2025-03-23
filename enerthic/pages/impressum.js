@@ -1,1 +1,0 @@
-export default function Impressum() { return <main>Impressum</main>; }
