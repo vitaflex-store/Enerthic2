@@ -1,0 +1,1 @@
+export default function Zahlung() { return <h1>Zahlung</h1>; }

@@ -1,0 +1,1 @@
+export default function Versand() { return <h1>Versand</h1>; }
