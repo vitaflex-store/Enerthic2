@@ -1,1 +1,16 @@
-export default function Footer() { return <footer>Footer</footer>; }
+// pages/_app.js
+import '../styles/globals.css';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <Navbar />
+      <Component {...pageProps} />
+      <Footer />
+    </>
+  );
+}
+
+export default MyApp;
