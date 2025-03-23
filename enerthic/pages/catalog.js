@@ -1,0 +1,1 @@
+export default function Catalog() { return <main>Katalog</main>; }

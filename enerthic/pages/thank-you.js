@@ -1,0 +1,1 @@
+export default function ThankYou() { return <main>Danke für Ihre Nachricht!</main>; }
